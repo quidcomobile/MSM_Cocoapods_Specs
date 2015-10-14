@@ -1,5 +1,5 @@
 {
-  "name": "AWSiOSSDK",
+  "name": "MSM_AWSiOSSDK",
   "version": "1.7.1",
   "license": "Apache License, Version 2.0",
   "summary": "Amazon Web Services SDK for iOS.",
@@ -22,10 +22,9 @@
     {
       "name": "Runtime",
       "source_files": [
-        "src/Amazon.Runtime/**/*.m",
+        "src/Amazon.Runtime/**/*.{h,m}",
         "src/include",
-        "src/ThirdParty/**/*.m",
-        "src/ThirdParty/**/*.h"
+        "src/ThirdParty/**/*.{h,m}"
       ]
     },
     {
