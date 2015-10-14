@@ -21,10 +21,12 @@
   "subspecs": [
     {
       "name": "Runtime",
+      "public_header_files" : ["src/ThirdParty/**/*.h", "src/include/*.h"],
       "source_files": [
-        "src/Amazon.Runtime/**/*.{h,m}",
+        "src/Amazon.Runtime/**/*.m",
         "src/include",
-        "src/ThirdParty/**/*.{h,m}"
+        "src/ThirdParty/**/*.m",
+        "src/ThirdParty/**/*.h"
       ]
     },
     {
@@ -34,7 +36,7 @@
         "src/include/DynamoDB"
       ],
       "dependencies": {
-        "AWSiOSSDK/Runtime": [
+        "MSM_AWSiOSSDK/Runtime": [
 
         ]
       }
@@ -46,7 +48,7 @@
         "src/include/S3"
       ],
       "dependencies": {
-        "AWSiOSSDK/Runtime": [
+        "MSM_AWSiOSSDK/Runtime": [
 
         ]
       }
@@ -58,10 +60,10 @@
         "src/include/AutoScaling"
       ],
       "dependencies": {
-        "AWSiOSSDK/Runtime": [
+        "MSM_AWSiOSSDK/Runtime": [
 
         ],
-        "AWSiOSSDK/DynamoDB": [
+        "MSM_AWSiOSSDK/DynamoDB": [
 
         ]
       }
@@ -73,10 +75,10 @@
         "src/include/CloudWatch"
       ],
       "dependencies": {
-        "AWSiOSSDK/Runtime": [
+        "MSM_AWSiOSSDK/Runtime": [
 
         ],
-        "AWSiOSSDK/DynamoDB": [
+        "MSM_AWSiOSSDK/DynamoDB": [
 
         ]
       }
@@ -88,10 +90,10 @@
         "src/include/EC2"
       ],
       "dependencies": {
-        "AWSiOSSDK/Runtime": [
+        "MSM_AWSiOSSDK/Runtime": [
 
         ],
-        "AWSiOSSDK/DynamoDB": [
+        "MSM_AWSiOSSDK/DynamoDB": [
 
         ]
       }
@@ -103,10 +105,10 @@
         "src/include/ElasticLoadBalancing"
       ],
       "dependencies": {
-        "AWSiOSSDK/Runtime": [
+        "MSM_AWSiOSSDK/Runtime": [
 
         ],
-        "AWSiOSSDK/DynamoDB": [
+        "MSM_AWSiOSSDK/DynamoDB": [
 
         ]
       }
@@ -118,10 +120,10 @@
         "src/include/SES"
       ],
       "dependencies": {
-        "AWSiOSSDK/Runtime": [
+        "MSM_AWSiOSSDK/Runtime": [
 
         ],
-        "AWSiOSSDK/DynamoDB": [
+        "MSM_AWSiOSSDK/DynamoDB": [
 
         ]
       }
@@ -133,10 +135,10 @@
         "src/include/SNS"
       ],
       "dependencies": {
-        "AWSiOSSDK/Runtime": [
+        "MSM_AWSiOSSDK/Runtime": [
 
         ],
-        "AWSiOSSDK/DynamoDB": [
+        "MSM_AWSiOSSDK/DynamoDB": [
 
         ]
       }
@@ -148,10 +150,10 @@
         "src/include/SQS"
       ],
       "dependencies": {
-        "AWSiOSSDK/Runtime": [
+        "MSM_AWSiOSSDK/Runtime": [
 
         ],
-        "AWSiOSSDK/DynamoDB": [
+        "MSM_AWSiOSSDK/DynamoDB": [
 
         ]
       }
@@ -163,10 +165,10 @@
         "src/include/STS"
       ],
       "dependencies": {
-        "AWSiOSSDK/Runtime": [
+        "MSM_AWSiOSSDK/Runtime": [
 
         ],
-        "AWSiOSSDK/DynamoDB": [
+        "MSM_AWSiOSSDK/DynamoDB": [
 
         ]
       }
@@ -178,10 +180,10 @@
         "src/include/SimpleDB"
       ],
       "dependencies": {
-        "AWSiOSSDK/Runtime": [
+        "MSM_AWSiOSSDK/Runtime": [
 
         ],
-        "AWSiOSSDK/DynamoDB": [
+        "MSM_AWSiOSSDK/DynamoDB": [
 
         ]
       }
